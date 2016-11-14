@@ -69,7 +69,7 @@ class Game
 
 				player_move = nil
 				until player_move && board[player_move] == '-'
-					puts "At what inddo you want to make your move"
+					puts "At what index (between 0 and 8--were you expecting a fancy interface or something??) do you want to make your move"
 					player_move = gets.chomp.strip.to_i
 				end
 
